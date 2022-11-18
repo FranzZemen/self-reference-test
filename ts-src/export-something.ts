@@ -5,7 +5,7 @@ License Type:
 export type SomeType = {name: string, value: string};
 export class SomeClass {
   key: string;
-  constructor() {
+  constructor(dumb: number) {
   }
   do() {
     console.log(this.key);
